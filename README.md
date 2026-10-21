@@ -1,18 +1,19 @@
-# FINA — promotional rewards website prototype
+# FINA — Wallet and rewards UI prototype
 
-A responsive static prototype for the FINA rewards concept.
+A responsive frontend concept for a FINA financial-services experience.
 
 ## Included
-- Landing page and ₦30,000 promotional bonus preview
-- Registration/login form UI (demo only)
-- Clear notice that the bonus is proposed promotional credit, not a verified cash balance
-- Up-front disclosure of the planned ₦3,000 activation/commission fee
-- Mobile-friendly responsive layout
+- Landing page and prototype registration/login form
+- Wallet dashboard with a clearly labelled illustrative ₦30,000 promotional balance
+- Activation-code entry UI (demo only; codes are not validated)
+- Withdrawal button and request-form preview (does not submit a real withdrawal)
+- Activity list and service tiles for airtime, data, betting and transactions
+- Responsive mobile and desktop styling
 
-## Important before launch
-This repository is a frontend prototype only. Forms do not create accounts, and no real bonus balance, payment, airtime, betting, or withdrawal is implemented. Do not collect real passwords until a secure backend, password hashing, session management, privacy notice, and account recovery are in place.
+## Run locally
+Open `index.html` in a browser. Use the "Wallet demo" link to view `dashboard.html`.
 
-Any required ₦3,000 fee must be accurately described before payment, including what it covers, who receives it, refund rules, and whether it is separate from promotional credit. Do not describe it as a maintenance fee unless that is genuinely what the fee pays for. Publish full reward eligibility, expiry, restrictions, and withdrawal conditions before users sign up.
+## Before any real launch
+This is frontend-only. It does not create accounts, store balances, process fees, validate codes, or connect to financial services. Do not collect real passwords or bank details through this prototype. A production implementation needs a secure backend, password hashing, session management, audit logs, server-side activation-code validation, idempotent ledger entries, fraud controls, privacy and recovery flows, and approved payment/service-provider integrations.
 
-## Preview
-Open `index.html` locally or deploy the repository as a static site.
+Do not represent promotional credit as withdrawable cash unless it is genuinely funded and payable under the published rules. Clearly disclose the ₦3,000 fee's actual purpose, recipient, refund policy and all bonus/withdrawal conditions before payment. Do not label a fee as maintenance unless that is genuinely what it covers.
